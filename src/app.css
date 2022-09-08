@@ -1,25 +1,116 @@
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@font-face {
+    font-family: concourse2;
+    src: url('/concourse_2_regular.woff2') format('woff2');
+    font-style: normal;
+    font-display: block;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.preact:hover {
-  filter: drop-shadow(0 0 2em #673ab8aa);
+@font-face {
+    font-family: concourse2;
+    src: url('/concourse_2_italic.woff2') format('woff2');
+    font-style: italic;
+    font-display: block;
 }
 
-.card {
-  padding: 2em;
+@font-face {
+    font-family: concourse3;
+    src: url('/concourse_3_regular.woff2') format('woff2');
+    font-style: normal;
+    font-display: block;
 }
 
-.read-the-docs {
-  color: #888;
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+:root, body, div#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    min-height: 100vh;
+    width: 100vw;
+    font-family: concourse3, sans-serif;
+    color: white;
+}
+
+:root {
+    background-image: linear-gradient(hsl(230, 75%, 45%), hsl(300, 75%, 35%));
+}
+
+div#app {
+    background-image: url("/bf.svg");
+    background-size: 50em;
+    background-repeat: no-repeat;
+    background-position: center calc(50% - 5em);
+}
+
+div {
+    width: 100%;
+}
+
+div.cols {
+    display: flex;
+    align-items: center;
+}
+
+div.en {
+    margin-right: .5em;
+    text-align: right;
+}
+
+div.spec {
+    width: 7em;
+}
+
+div.fr {
+    margin-left: .5em;
+    text-align: left;
+}
+
+h1 {
+    font-family: concourse2;
+    font-size: 400%;
+    margin: 0.5em 0 0.5em 0;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+div.expand {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+div.central {
+    flex-grow: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.lspc {
+    margin: 1em 0 1em 0;
+}
+
+.spc {
+    margin: 2em 0 2em 0;
+}
+
+.em {
+    font-style: italic;
+}
+
+div#construction {
+    position: fixed;
+    top: 0;
+    height: 0.25em;
+    background: repeating-linear-gradient(-45deg, black, black 0.5em, #ff0 0.5em, #ff0 1em);
 }
