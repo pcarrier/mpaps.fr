@@ -106,6 +106,19 @@ export function App() {
                                     <p>pomelo — orange</p>
                                 </div>
                             </div>
+                            <div class='cols spc'>
+                                <div class='en'>
+                                    <h2>additives</h2>
+                                    <p>oatmilk — honey — stevia</p>
+                                </div>
+                                <div class='spec'>
+                                    <p>😱</p>
+                                </div>
+                                <div class='fr'>
+                                    <h2>additifs</h2>
+                                    <p>lait d'avoine — miel — stevia</p>
+                                </div>
+                            </div>
                         </div>
                     }
                     <h1>papillons</h1>
