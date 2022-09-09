@@ -107,10 +107,3 @@ a {
 .em {
     font-style: italic;
 }
-
-div#construction {
-    position: fixed;
-    top: 0;
-    height: 0.25em;
-    background: repeating-linear-gradient(-45deg, black, black 0.5em, #ff0 0.5em, #ff0 1em);
-}

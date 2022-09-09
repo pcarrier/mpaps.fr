@@ -1,5 +1,5 @@
 import './app.css'
-import { useEffect, useRef, useState } from "preact/hooks";
+import { useState } from "preact/hooks";
 
 export function App() {
     const [infos, setInfos] = useState(false);
@@ -9,17 +9,8 @@ export function App() {
         setInfos(!infos);
     }
 
-    const bg = useRef(null);
-    useEffect(() => {
-        const interval = setInterval(() => {
-
-        }, 1000);
-        return () => clearInterval(interval);
-    })
-
     return (
         <>
-            <div id='construction'/>
             <div class='lspc'>
                 <div class='cols'>
                     <div class='en'>Wednesday-Sunday<br/>7am-12pm<br/>
