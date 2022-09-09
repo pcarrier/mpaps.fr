@@ -52,10 +52,10 @@ export function App() {
                                 <div class='fr'>dès le 1er décembre</div>
                             </div>
                             <div class='cols spc'>
-                                <div class='en'>book over <a href="mailto:visit@mpaps.fr">E-mail</a> or <a
+                                <div class='en'>join via <a href="mailto:visit@mpaps.fr">E-mail</a> or <a
                                     href='https://wa.me/+15102924154'>WhatsApp</a></div>
                                 <div class='spec'>📨</div>
-                                <div class='fr'>réserver par <a href="mailto:visite@mpaps.fr">E-mail</a> ou <a
+                                <div class='fr'>joindre par <a href="mailto:visite@mpaps.fr">E-mail</a> ou <a
                                     href='https://wa.me/+15102924154'>WhatsApp</a></div>
                             </div>
                         </>
@@ -67,9 +67,7 @@ export function App() {
                                     <p>western — gongfu</p>
                                     <p>longjing — jin xuan — puerh</p>
                                 </div>
-                                <div class='spec'>
-                                    <p>8g</p>
-                                </div>
+                                <div class='spec'>8g</div>
                                 <div class='fr'>
                                     <h2>thé</h2>
                                     <p>occidental — gongfu</p>
@@ -82,9 +80,7 @@ export function App() {
                                     <p>shot — immersion</p>
                                     <p>light — medium — dark</p>
                                 </div>
-                                <div class='spec'>
-                                    <p>18g</p>
-                                </div>
+                                <div class='spec'>18g</div>
                                 <div class='fr'>
                                     <h2 class='first'>café</h2>
                                     <p>pression — immersion</p>
@@ -97,9 +93,7 @@ export function App() {
                                     <p>squeezed on demand</p>
                                     <p>pomelo — orange</p>
                                 </div>
-                                <div class='spec'>
-                                    <p>16cl</p>
-                                </div>
+                                <div class='spec'>16cl</div>
                                 <div class='fr'>
                                     <h2>jus</h2>
                                     <p>pressé à la demande</p>
@@ -111,9 +105,7 @@ export function App() {
                                     <h2>additives</h2>
                                     <p>oatmilk — honey — stevia</p>
                                 </div>
-                                <div class='spec'>
-                                    <p>😱</p>
-                                </div>
+                                <div class='spec'>—</div>
                                 <div class='fr'>
                                     <h2>additifs</h2>
                                     <p>lait d'avoine — miel — stevia</p>
@@ -124,13 +116,13 @@ export function App() {
                     <h1>papillons</h1>
                     {infos && <div class='cols em'>
                         <div class='en'>
-                            Hosting&nbsp;&amp; service are voluntary&nbsp;&amp; conditional.<br/>
                             Please respect the neighbourhood.<br/>
+                            Hosting&nbsp;&amp; service are voluntary&nbsp;&amp; conditional.<br/>
                             Your food is welcome.
                         </div>
                         <div class='fr'>
-                            Accueil&nbsp;&amp; service sont volontaires&nbsp;&amp; conditionnels.<br/>
                             Merci de respecter le voisinage.<br/>
+                            Accueil&nbsp;&amp; service sont volontaires&nbsp;&amp; conditionnels.<br/>
                             Votre nourriture est bienvenue.
                         </div>
                     </div>}
