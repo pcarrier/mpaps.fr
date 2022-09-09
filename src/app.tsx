@@ -25,7 +25,7 @@ export function App() {
                     <div class='en'>Wednesday-Sunday<br/>7am-12pm<br/>
                         <a href='#' onClick={discover}>{infos ? 'menu' : 'visit'}</a>
                     </div>
-                    <div class='spec'>2€</div>
+                    <div class='spec'>0€</div>
                     <div class='fr'>mercredi-dimanche<br/>7h-12h<br/>
                         <a href='#' onClick={discover}>{infos ? 'menu' : 'visiter'}</a>
                     </div>
@@ -111,14 +111,12 @@ export function App() {
                     <h1>papillons</h1>
                     {infos && <div class='cols em'>
                         <div class='en'>
-                            We sell products;<br/>
-                            hosting&nbsp;&amp; service are voluntary&nbsp;&amp; conditional.<br/>
+                            Hosting&nbsp;&amp; service are voluntary&nbsp;&amp; conditional.<br/>
                             Please respect the neighbourhood.<br/>
                             Your food is welcome.
                         </div>
                         <div class='fr'>
-                            Nous vendons les produits&nbsp;;<br/>
-                            accueil&nbsp;&amp; service sont volontaires&nbsp;&amp; conditionnels.<br/>
+                            Accueil&nbsp;&amp; service sont volontaires&nbsp;&amp; conditionnels.<br/>
                             Merci de respecter le voisinage.<br/>
                             Votre nourriture est bienvenue.
                         </div>
