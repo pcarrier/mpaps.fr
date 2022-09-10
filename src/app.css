@@ -32,7 +32,6 @@
     align-content: center;
     text-align: center;
     min-height: 100vh;
-    width: 100vw;
     font-family: concourse3, sans-serif;
     color: white;
 }
@@ -41,11 +40,13 @@
     background-image: linear-gradient(hsl(230, 75%, 45%), hsl(300, 75%, 35%));
 }
 
-div#app {
+body {
+    max-width: 52em;
+    background-size: 52em;
     background-image: url("/bf.svg");
-    background-size: 50em;
     background-repeat: no-repeat;
     background-position: center calc(50% - 5em);
+    font-variant-emoji: emoji;
 }
 
 div {
@@ -81,6 +82,10 @@ h2 {
     font-size: 200%;
 }
 
+h3 {
+    font-size: 125%;
+}
+
 div.expand {
     flex-grow: 1;
     display: flex;
@@ -106,4 +111,11 @@ a {
 
 .em {
     font-style: italic;
+}
+
+div#construction {
+    position: fixed;
+    top: 0;
+    height: 4px;
+    background: repeating-linear-gradient(-45deg, black, black 0.5em, #ff0 0.5em, #ff0 1em);
 }
