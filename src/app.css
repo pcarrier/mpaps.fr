@@ -41,7 +41,7 @@
 }
 
 body {
-    max-width: 52em;
+    width: 52em;
     background-size: 52em;
     background-image: url("/bf.svg");
     background-repeat: no-repeat;
