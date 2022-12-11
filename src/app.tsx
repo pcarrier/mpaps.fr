@@ -53,11 +53,6 @@ export function App() {
                                 </div>
                             </div>
                             <div class='cols spc'>
-                                <div class='en'>from December 1st</div>
-                                <div class='spec'>📅</div>
-                                <div class='fr'>dès le 1er décembre</div>
-                            </div>
-                            <div class='cols spc'>
                                 <div class='en'>discover via <a href="mailto:visit@mpaps.fr">E-mail</a> or <a
                                     href='https://wa.me/+33783255756'>WhatsApp</a></div>
                                 <div class='spec'>📨</div>
