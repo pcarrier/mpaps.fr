@@ -65,7 +65,7 @@ export function App() {
                             <div class='cols spc'>
                                 <div class='en'>
                                     <h2>tea</h2>
-                                    <p>longjing (green) — jin xuan (oonlong) — puerh (fermented)</p>
+                                    <p>longjing (green) — jin xuan (oolong) — puerh (fermented)</p>
                                     <p>80°C — 90°C — 98°C water dispensers</p>
                                     <p>your brew (western — gongfu)</p>
                                 </div>
