@@ -26,10 +26,6 @@
 }
 
 :root, body, div#app {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
     text-align: center;
     min-height: 100vh;
     font-family: concourse3, sans-serif;
@@ -37,13 +33,10 @@
 }
 
 :root {
-    min-width: 52em;
     background-image: linear-gradient(hsl(230, 75%, 45%), hsl(300, 75%, 35%));
 }
 
 body {
-    width: 52em;
-    background-size: 52em;
     background-image: url("/bf.svg");
     background-repeat: no-repeat;
     background-position: center calc(50% - 5em);

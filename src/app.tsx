@@ -25,31 +25,29 @@ export function App() {
             </div>
             <div class='expand'>
                 <div class='central'>
-                    <h1>minute</h1>
+                    <h1>minute<br/>papillons</h1>
                     {infos ?
                         <>
                             <div class='cols spc'>
                                 <div class='en'>
-                                    <p>private salon by appointment</p>
-                                    <p>visits &amp; travel possible</p>
-                                </div>
-                                <div class='spec'>🛋</div>
-                                <div class='fr'>
-                                    <p>salon privé sur rendez-vous</p>
-                                    <p>visites &amp; voyages possibles</p>
-                                </div>
-                            </div>
-                            <div class='cols spc'>
-                                <div class='en'>
                                     <p>Grenoble</p>
                                     <p>Alsace-Lorraine stop</p>
-                                    <p>limited accessibility</p>
                                 </div>
                                 <div class='spec'>📍</div>
                                 <div class='fr'>
                                     <p>Grenoble</p>
                                     <p>arrêt Alsace-Lorraine</p>
-                                    <p>accessibilité limitée</p>
+                                </div>
+                            </div>
+                            <div className='cols spc'>
+                                <div className='en'>
+                                    <p>by appointment</p>
+                                    <p>travel possible</p>
+                                </div>
+                                <div className='spec'>🛋</div>
+                                <div className='fr'>
+                                    <p>sur rendez-vous</p>
+                                    <p>voyages possibles</p>
                                 </div>
                             </div>
                             <div class='cols spc'>
@@ -76,12 +74,12 @@ export function App() {
                             <div class='cols spc'>
                                 <div class='en'>
                                     <h2 class="first">coffee</h2>
-                                    <p>shot (1–6cl), immersion (12–33cl)</p>
+                                    <p>shot (3–6cl), immersion (12–33cl)</p>
                                 </div>
                                 <div class='spec'>9–18g</div>
                                 <div class='fr'>
                                     <h2 class='first'>café</h2>
-                                    <p>pression (1–6cl), immersion (12–33cl)</p>
+                                    <p>pression (3–6cl), immersion (12–33cl)</p>
                                 </div>
                             </div>
                             <div class='cols spc'>
@@ -98,17 +96,16 @@ export function App() {
                             <div class='cols spc'>
                                 <div class='en'>
                                     <h2>additives</h2>
-                                    <p>oatmilk, honey, stevia</p>
+                                    <p>oatmilk, honey</p>
                                 </div>
                                 <div class='spec'>—</div>
                                 <div class='fr'>
                                     <h2>additifs</h2>
-                                    <p>lait d'avoine, miel, stevia</p>
+                                    <p>lait d'avoine, miel</p>
                                 </div>
                             </div>
                         </div>
                     }
-                    <h1>papillons</h1>
                     {infos ? <div class='cols em'>
                         <div class='en'>
                             Hosting&nbsp;&amp; service are voluntary&nbsp;&amp; conditional.<br/>
