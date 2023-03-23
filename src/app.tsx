@@ -66,43 +66,33 @@ export function App() {
                                 <div class='en'>
                                     <h2>tea</h2>
                                     <p>longjing (green) — jin xuan (oolong) — puerh (fermented)</p>
-                                    <p>80°C — 90°C — 98°C water dispensers</p>
-                                    <p>your brew (western — gongfu)</p>
                                 </div>
                                 <div class='spec'>5–8g</div>
                                 <div class='fr'>
                                     <h2>thé</h2>
                                     <p>longjing (vert) — jin xuan (oolong) — puerh (fermenté)</p>
-                                    <p>distributeurs d'eau à 80°C — 90°C — 98°C</p>
-                                    <p>votre infusion (occidental — gongfu)</p>
                                 </div>
                             </div>
                             <div class='cols spc'>
                                 <div class='en'>
                                     <h2 class="first">coffee</h2>
                                     <p>shot (1–6cl) — immersion (12–33cl)</p>
-                                    <p>light — medium — dark</p>
-                                    <p>ground and extracted to your liking</p>
                                 </div>
                                 <div class='spec'>9–18g</div>
                                 <div class='fr'>
                                     <h2 class='first'>café</h2>
                                     <p>pression (1–6cl) — immersion (12–33cl)</p>
-                                    <p>doux — moyen — corsé</p>
-                                    <p>moulu et extrait à votre goût</p>
                                 </div>
                             </div>
                             <div class='cols spc'>
                                 <div class='en'>
                                     <h2>juice</h2>
                                     <p>pomelo — orange</p>
-                                    <p>cut &amp; squeezed on demand</p>
                                 </div>
                                 <div class='spec'>16cl</div>
                                 <div class='fr'>
                                     <h2>jus</h2>
                                     <p>pomelo — orange</p>
-                                    <p>coupé &amp; pressé à la demande</p>
                                 </div>
                             </div>
                             <div class='cols spc'>
