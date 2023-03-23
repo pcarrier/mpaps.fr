@@ -123,14 +123,14 @@ export function App() {
                     </div> : <div class='cols'>
                         <div class='en em'>
                             Tea and coffee contain <a href='https://en.wikipedia.org/wiki/Caffeine'>caffeine</a>, an
-                            addictive psychotropic stimulant with many adverse effects (tachycardia, insomnia,
+                            addictive psychotropic stimulant with adverse effects (tachycardia, insomnia,
                             etc.). <br/>
                             Adults (18+) only.
                         </div>
                         <div class='spec'>⚠️</div>
                         <div class='fr em'>Thé et café contiennent de la <a
                             href='https://fr.wikipedia.org/wiki/Caf%C3%A9ine'>caféine</a>, un stimulant psychotrope
-                            addictif aux nombreux effets secondaires (tachychardie, insomnie, etc.).<br/>Adultes (18+)
+                            addictif avec effets secondaires (tachychardie, insomnie, etc.).<br/>Adultes (18+)
                             seulement.
                         </div>
                     </div>
