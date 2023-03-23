@@ -26,6 +26,8 @@
 }
 
 :root, body, div#app {
+    display: flex;
+    flex-flow: column;
     text-align: center;
     min-height: 100vh;
     font-family: concourse3, sans-serif;
@@ -86,10 +88,6 @@ div.expand {
     align-items: center;
 }
 
-div.central {
-    flex-grow: 0;
-}
-
 a {
     color: inherit;
     text-decoration: underline;
@@ -105,11 +103,4 @@ a {
 
 .em {
     font-style: italic;
-}
-
-div#construction {
-    position: fixed;
-    top: 0;
-    height: 4px;
-    background: repeating-linear-gradient(-45deg, black, black 0.5em, #ff0 0.5em, #ff0 1em);
 }

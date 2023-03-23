@@ -11,16 +11,11 @@ export function App() {
 
     return (
         <>
-            <div id='construction'/>
             <div class='lspc'>
                 <div class='cols'>
-                    <div class='en'>Thursday–Sunday<br/>7am–12pm<br/>
-                        <a href='#' onClick={discover}>{infos ? 'menu' : 'visit'}</a>
-                    </div>
+                    <div class='en'>Monday–Friday<br/>7am–12pm</div>
                     <div class='spec'>0€</div>
-                    <div class='fr'>jeudi–dimanche<br/>7h–12h<br/>
-                        <a href='#' onClick={discover}>{infos ? 'menu' : 'visiter'}</a>
-                    </div>
+                    <div class='fr'>lundi–vendredi<br/>7h–12h</div>
                 </div>
             </div>
             <div class='expand'>
@@ -82,60 +77,51 @@ export function App() {
                                     <p>pression (3–6cl), immersion (12–33cl)</p>
                                 </div>
                             </div>
-                            <div class='cols spc'>
-                                <div class='en'>
-                                    <h2>juice</h2>
-                                    <p>pomelo, orange</p>
+                            <div className='cols spc'>
+                                <div className='en'>
+                                    <h2 className="first">eau</h2>
+                                    <p>still, sparkling</p>
                                 </div>
-                                <div class='spec'>16cl</div>
-                                <div class='fr'>
-                                    <h2>jus</h2>
-                                    <p>pomelo, orange</p>
-                                </div>
-                            </div>
-                            <div class='cols spc'>
-                                <div class='en'>
-                                    <h2>additives</h2>
-                                    <p>oatmilk, honey</p>
-                                </div>
-                                <div class='spec'>—</div>
-                                <div class='fr'>
-                                    <h2>additifs</h2>
-                                    <p>lait d'avoine, miel</p>
+                                <div className='spec'>—</div>
+                                <div className='fr'>
+                                    <h2 className='first'>eau</h2>
+                                    <p>plate, gazeuse</p>
                                 </div>
                             </div>
                         </div>
                     }
                     {infos ? <div class='cols em'>
                         <div class='en'>
-                            Hosting&nbsp;&amp; service are voluntary&nbsp;&amp; conditional.<br/>
                             Please respect the neighbourhood.<br/>
                             Your food is welcome.
                         </div>
                         <div class='fr'>
-                            Accueil&nbsp;&amp; service sont volontaires&nbsp;&amp; conditionnels.<br/>
                             Merci de respecter le voisinage.<br/>
                             Votre nourriture est bienvenue.
                         </div>
                     </div> : <div class='cols'>
                         <div class='en em'>
-                            Tea and coffee contain <a href='https://en.wikipedia.org/wiki/Caffeine'>caffeine</a>, an
-                            addictive psychotropic stimulant with adverse effects (tachycardia, insomnia,
-                            etc.). <br/>
+                            <a href='https://en.wikipedia.org/wiki/Caffeine'>Caffeine</a> is an addictive psychotropic
+                            stimulant<br/>
+                            Adverse effects include tachycardia &amp; insomnia.<br/>
                             Adults (18+) only.
                         </div>
                         <div class='spec'>⚠️</div>
-                        <div class='fr em'>Thé et café contiennent de la <a
-                            href='https://fr.wikipedia.org/wiki/Caf%C3%A9ine'>caféine</a>, un stimulant psychotrope
-                            addictif avec effets adverses (tachychardie, insomnie, etc.).<br/>Adultes (18+)
-                            seulement.
+                        <div class='fr em'>
+                            <a href='https://fr.wikipedia.org/wiki/Caf%C3%A9ine'>La caféine</a> est un stimulant
+                            psychotrope addictif.<br/>
+                            Les effets adverses incluent tachychardie &amp; insomnie.<br/>
+                            Adultes (18+) seulement.
                         </div>
                     </div>
                     }
                 </div>
             </div>
-            <div id='bottom' class='lspc'>
-                <img src='/bottom3.webp' style='width: 40em; max-width: 90%;' alt='accessories'/>
+            <div class='lspc'>
+                <div className='cols'>
+                    <div className='en'><a href='#' onClick={discover}>{infos ? 'menu' : 'visit'}</a></div>
+                    <div className='fr'><a href='#' onClick={discover}>{infos ? 'menu' : 'visiter'}</a></div>
+                </div>
             </div>
         </>
     )
