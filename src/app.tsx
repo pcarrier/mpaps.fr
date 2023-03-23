@@ -65,45 +65,45 @@ export function App() {
                             <div class='cols spc'>
                                 <div class='en'>
                                     <h2>tea</h2>
-                                    <p>longjing (green) — jin xuan (oolong) — puerh (fermented)</p>
+                                    <p>longjing (green), jin xuan (oolong), puerh (fermented)</p>
                                 </div>
                                 <div class='spec'>5–8g</div>
                                 <div class='fr'>
                                     <h2>thé</h2>
-                                    <p>longjing (vert) — jin xuan (oolong) — puerh (fermenté)</p>
+                                    <p>longjing (vert), jin xuan (oolong), puerh (fermenté)</p>
                                 </div>
                             </div>
                             <div class='cols spc'>
                                 <div class='en'>
                                     <h2 class="first">coffee</h2>
-                                    <p>shot (1–6cl) — immersion (12–33cl)</p>
+                                    <p>shot (1–6cl), immersion (12–33cl)</p>
                                 </div>
                                 <div class='spec'>9–18g</div>
                                 <div class='fr'>
                                     <h2 class='first'>café</h2>
-                                    <p>pression (1–6cl) — immersion (12–33cl)</p>
+                                    <p>pression (1–6cl), immersion (12–33cl)</p>
                                 </div>
                             </div>
                             <div class='cols spc'>
                                 <div class='en'>
                                     <h2>juice</h2>
-                                    <p>pomelo — orange</p>
+                                    <p>pomelo, orange</p>
                                 </div>
                                 <div class='spec'>16cl</div>
                                 <div class='fr'>
                                     <h2>jus</h2>
-                                    <p>pomelo — orange</p>
+                                    <p>pomelo, orange</p>
                                 </div>
                             </div>
                             <div class='cols spc'>
                                 <div class='en'>
                                     <h2>additives</h2>
-                                    <p>oatmilk — honey — stevia</p>
+                                    <p>oatmilk, honey, stevia</p>
                                 </div>
                                 <div class='spec'>—</div>
                                 <div class='fr'>
                                     <h2>additifs</h2>
-                                    <p>lait d'avoine — miel — stevia</p>
+                                    <p>lait d'avoine, miel, stevia</p>
                                 </div>
                             </div>
                         </div>

@@ -37,6 +37,7 @@
 }
 
 :root {
+    min-width: 52em;
     background-image: linear-gradient(hsl(230, 75%, 45%), hsl(300, 75%, 35%));
 }
 
