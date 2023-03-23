@@ -130,7 +130,7 @@ export function App() {
                         <div class='spec'>⚠️</div>
                         <div class='fr em'>Thé et café contiennent de la <a
                             href='https://fr.wikipedia.org/wiki/Caf%C3%A9ine'>caféine</a>, un stimulant psychotrope
-                            addictif avec effets secondaires (tachychardie, insomnie, etc.).<br/>Adultes (18+)
+                            addictif avec effets adverses (tachychardie, insomnie, etc.).<br/>Adultes (18+)
                             seulement.
                         </div>
                     </div>
