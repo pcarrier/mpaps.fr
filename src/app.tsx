@@ -58,34 +58,34 @@ export function App() {
                             <div class='cols spc'>
                                 <div class='en'>
                                     <h2>tea</h2>
-                                    <p>longjing (green), jin xuan (oolong), puerh (fermented)</p>
+                                    <p>longjing (green)</p><p>jin xuan (oolong)</p><p>puerh (fermented)</p>
                                 </div>
                                 <div class='spec'>5–8g</div>
                                 <div class='fr'>
                                     <h2>thé</h2>
-                                    <p>longjing (vert), jin xuan (oolong), puerh (fermenté)</p>
+                                    <p>longjing (vert)</p><p>jin xuan (oolong)</p><p>puerh (fermenté)</p>
                                 </div>
                             </div>
                             <div class='cols spc'>
                                 <div class='en'>
                                     <h2 class="first">coffee</h2>
-                                    <p>shot (3–6cl), immersion (12–33cl)</p>
+                                    <p>shot (3–6cl)</p><p>immersion (12–33cl)</p>
                                 </div>
                                 <div class='spec'>9–18g</div>
                                 <div class='fr'>
                                     <h2 class='first'>café</h2>
-                                    <p>pression (3–6cl), immersion (12–33cl)</p>
+                                    <p>pression (3–6cl)</p><p>immersion (12–33cl)</p>
                                 </div>
                             </div>
                             <div className='cols spc'>
                                 <div className='en'>
                                     <h2 className="first">eau</h2>
-                                    <p>still, sparkling</p>
+                                    <p>still</p><p>sparkling</p>
                                 </div>
-                                <div className='spec'>—</div>
+                                <div className='spec'></div>
                                 <div className='fr'>
                                     <h2 className='first'>eau</h2>
-                                    <p>plate, gazeuse</p>
+                                    <p>plate</p><p>gazeuse</p>
                                 </div>
                             </div>
                         </div>
