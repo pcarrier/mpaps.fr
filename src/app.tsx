@@ -69,12 +69,12 @@ export function App() {
                             <div class='cols spc'>
                                 <div class='en'>
                                     <h2 class="first">coffee</h2>
-                                    <p>shot (3–6cl)</p><p>immersion (12–33cl)</p>
+                                    <p>espresso (3–6cl)</p><p>immersion (12–29cl)</p>
                                 </div>
                                 <div class='spec'>9–18g</div>
                                 <div class='fr'>
                                     <h2 class='first'>café</h2>
-                                    <p>pression (3–6cl)</p><p>immersion (12–33cl)</p>
+                                    <p>espresso (3–6cl)</p><p>immersion (12–29cl)</p>
                                 </div>
                             </div>
                             <div className='cols spc'>
