@@ -2,7 +2,7 @@ import './app.css'
 import { useState } from "preact/hooks";
 
 export function App() {
-    const [infos, setInfos] = useState(false);
+    const [infos, setInfos] = useState(true);
 
     const discover = (e: Event) => {
         e.preventDefault();
@@ -102,7 +102,7 @@ export function App() {
                     </div> : <div class='cols'>
                         <div class='en em'>
                             <a href='https://en.wikipedia.org/wiki/Caffeine'>Caffeine</a> is an addictive psychotropic
-                            stimulant<br/>
+                            stimulant.<br/>
                             Adverse effects include tachycardia &amp; insomnia.<br/>
                             Adults (18+) only.
                         </div>
